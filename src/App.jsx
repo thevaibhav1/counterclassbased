@@ -16,10 +16,10 @@ class App extends Component {
     return (
       <>
         <h1>Counter</h1>
-        <p>count: {this.state.count}</p>
+        <p>Count: {this.state.count}</p>
         <div>
-          <button onClick={this.increment}>increment</button>
-          <button onClick={this.decrement}>decrement</button>
+          <button onClick={this.increment}>Increment</button>
+          <button onClick={this.decrement}>Decrement</button>
         </div>
       </>
     );
